@@ -31,8 +31,23 @@ p ul {
 
 /* Container */
 
-.container {
-  width: 1200px;
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.section.work {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0;
+}
+
+.section.comand {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.section.peculiarities {
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -80,22 +95,17 @@ p ul {
 
 .container-hero {
   display: flex;
-  margin: 0;
   padding: 0;
-  width: 1200px;
   flex-wrap: wrap;
   align-items: center;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  justify-content: center;
 }
 
 .container-peculiarities {
   display: flex;
-  padding-top: 94px;
-  padding-bottom: 94px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -103,7 +113,6 @@ p ul {
   align-items: center;
   width: 1200px;
   flex-wrap: wrap;
-  justify-content: center;
 }
 
 .footer-logo {
@@ -144,11 +153,6 @@ p ul {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   max-width: 100%;
-}
-
-.section-comand {
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .container-comand {
@@ -350,7 +354,7 @@ p ul {
   color: var(--primary-text-color);
 }
 
-.portfolio-nav {
+.portfolio.nav {
   padding-top: 94px;
   padding-bottom: 94px;
 }
