@@ -31,25 +31,27 @@ p ul {
 
 /* Container */
 
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header {
+  padding: 25px 0;
+}
+
 .container-header {
   display: flex;
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
   justify-content: center;
   align-items: center;
 }
 
 .main-nav {
   display: flex;
-}
-
-.section {
-  display: flex;
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .container-link {
@@ -66,10 +68,9 @@ p ul {
   margin: 0;
   column-gap: 50px;
   margin-left: auto;
-}
-
-.header {
-  padding: 25px 0;
+  padding-left: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .container-hero {
@@ -88,10 +89,13 @@ p ul {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+  justify-content: center;
 }
 
 .container-peculiarities {
   display: flex;
+  padding-top: 94px;
+  padding-bottom: 94px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -142,6 +146,11 @@ p ul {
   max-width: 100%;
 }
 
+.section-comand {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .container-comand {
   display: flex;
   width: 1200px;
@@ -168,6 +177,8 @@ p ul {
   display: flex;
   margin: 0;
   padding: 0;
+  padding-top: 24px;
+  padding-bottom: 25px;
   margin-right: 93px;
 }
 
@@ -224,7 +235,7 @@ p ul {
   letter-spacing: 0.02em;
 }
 
-.section-hero {
+.section.hero {
   padding-top: 200px;
   padding-bottom: 200px;
   background: #2f303a;
@@ -233,8 +244,6 @@ p ul {
 .hero {
   margin-left: 0;
   margin-right: 0;
-  width: 696px;
-  margin-bottom: 30px;
   align-items: center;
 
   font-weight: 900;
@@ -341,6 +350,11 @@ p ul {
   color: var(--primary-text-color);
 }
 
+.portfolio-nav {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .container-buttons {
   align-items: center;
   display: flex;
@@ -389,8 +403,6 @@ p ul {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  padding-top: 20px;
-  padding-bottom: 20px;
 }
 
 .container-images {
@@ -496,15 +508,12 @@ p ul {
 }
 
 .demonstration-title {
-  margin: 4px;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 
 .demonstration-text {
-  margin: 0;
-  padding: 0%;
   font-size: 16px;
   line-height: 1.88;
   color: var(--primary-text-color);
