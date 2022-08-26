@@ -522,10 +522,16 @@ p ul {
   border: 1px solid #eeeeee;
 }
 
+.container.demonstration {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
 .demonstration-title {
   padding: 0;
   margin: 0;
-  width: 322px;
   margin-bottom: 4px;
   font-size: 18px;
   line-height: 2;
@@ -535,7 +541,6 @@ p ul {
 .demonstration-text {
   padding: 0;
   margin: 0;
-  width: 322px;
   font-size: 16px;
   line-height: 1.88;
   color: var(--primary-text-color);
