@@ -47,7 +47,7 @@ p ul {
 
 .header {
   padding: 24px 0;
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 
 .container.header {
@@ -71,7 +71,6 @@ p ul {
 .contact {
   display: flex;
   column-gap: 50px;
-  margin-left: auto;
   margin: 0;
   padding: 0;
 }
@@ -84,7 +83,7 @@ p ul {
 }
 
 .section.team {
-  background: #f5f4fa;
+  background-color: #f5f4fa;
 }
 
 .footer-logo {
@@ -236,7 +235,7 @@ p ul {
 }
 
 .section.about {
-  padding: 0;
+  padding-top: 0;
 }
 
 .container-about {
@@ -360,7 +359,6 @@ p ul {
 
   color: #212121;
   background: #f5f4fa;
-  border-radius: 4px;
   font-family: inherit;
   font-style: normal;
   font-weight: 500;
@@ -377,7 +375,6 @@ p ul {
 
   color: #ffffff;
   background: var(--accent-btn-color);
-  border-radius: 4px;
   font-family: inherit;
   font-style: normal;
   font-weight: 500;
@@ -441,13 +438,9 @@ p ul {
   border: 1px solid #eeeeee;
 }
 
-.container.demonstration {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 24px;
-  padding-right: 24px;
+.demonstration {
+  padding: 20px 24px;
   border: 1px solid #eeeeee;
-  width: 322px;
 }
 
 .demonstration-title {
