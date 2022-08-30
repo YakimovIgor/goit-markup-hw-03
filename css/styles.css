@@ -30,6 +30,12 @@ p ul {
   margin: 0;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 /* Container */
 
 .container {
@@ -311,12 +317,6 @@ p ul {
   padding-bottom: 94px;
 }
 
-.buttons-container {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-}
-
 .portfolio-nav {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
@@ -327,6 +327,7 @@ p ul {
   margin: 0;
   column-gap: 8px;
   margin-bottom: 50px;
+  justify-content: center;
 }
 
 .post {
@@ -334,7 +335,7 @@ p ul {
   height: 404px;
 }
 
-.images-container {
+.list-presentation {
   margin-top: 0;
   margin-bottom: 0;
   display: flex;
