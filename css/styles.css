@@ -82,7 +82,7 @@ p ul {
   padding-bottom: 0;
 }
 
-.section.team {
+.section-team {
   background-color: #f5f4fa;
 }
 
@@ -183,7 +183,7 @@ p ul {
   letter-spacing: 0.02em;
 }
 
-.section.hero {
+.hero-section {
   padding-top: 200px;
   padding-bottom: 200px;
   background: #2f303a;
@@ -233,7 +233,7 @@ p ul {
   border: none;
 }
 
-.section.about {
+.section-about {
   padding-top: 0;
 }
 
