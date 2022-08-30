@@ -50,7 +50,7 @@ p ul {
   border-bottom: 1px solid #ececec;
 }
 
-.container.header {
+.header .container {
   display: flex;
   align-items: center;
 }
@@ -75,7 +75,7 @@ p ul {
   padding: 0;
 }
 
-.container.hero {
+.hero-container {
   width: 696px;
   text-align: center;
   padding-top: 0;
@@ -87,7 +87,6 @@ p ul {
 }
 
 .footer-logo {
-  width: 145px;
   display: block;
   margin-bottom: 20px;
 }
@@ -238,7 +237,7 @@ p ul {
   padding-top: 0;
 }
 
-.container-about {
+.list-about {
   width: 270px;
 }
 
@@ -261,7 +260,7 @@ p ul {
   line-height: 1.16;
 }
 
-.container-work-list {
+.work-list {
   padding: 0;
   margin: 0;
   display: flex;
@@ -312,7 +311,7 @@ p ul {
   padding-bottom: 94px;
 }
 
-.container.buttons {
+.buttons-container {
   align-items: center;
   display: flex;
   justify-content: center;
@@ -326,7 +325,7 @@ p ul {
   display: flex;
   padding: 0;
   margin: 0;
-  column-gap: 30px;
+  column-gap: 8px;
   margin-bottom: 50px;
 }
 
@@ -335,7 +334,7 @@ p ul {
   height: 404px;
 }
 
-.container.images {
+.images-container {
   margin-top: 0;
   margin-bottom: 0;
   display: flex;
@@ -478,7 +477,6 @@ p ul {
 
 .footer-list {
   display: block;
-  width: 231px;
   margin: 0;
   padding: 0;
   flex-direction: column;
@@ -511,4 +509,8 @@ p ul {
 
 .footer-link {
   margin-bottom: 9px;
+}
+
+.footer-link:last-child {
+  margin-bottom: 0;
 }
